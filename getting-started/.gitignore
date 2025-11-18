@@ -1,0 +1,10 @@
+node_modules/
+*.log
+.pulumi/
+Pulumi.*.yaml
+/.idea/
+/.vscode/
+*.env
+# ignore local service account credentials by name; do NOT commit keys to git
+*.json
+/node_modules/
